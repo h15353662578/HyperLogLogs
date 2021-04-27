@@ -125,11 +125,11 @@ public class HyperLogLog {
 
     public static void main(String[] args) {
         HyperLogLog hyperLogLog = new HyperLogLog(0.1325);
-//        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("输入集合中的元素 x y z");
-//        String x = scanner.nextLine();
-//        String y = scanner.nextLine();
-//        String z = scanner.nextLine();
+        String x = scanner.nextLine();
+        String y = scanner.nextLine();
+        String z = scanner.nextLine();
         hyperLogLog.offer("hmx");
         hyperLogLog.offer("hyy");
         hyperLogLog.offer("hyz");
